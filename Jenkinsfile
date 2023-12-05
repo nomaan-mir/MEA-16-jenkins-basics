@@ -44,6 +44,8 @@ pipeline {
 
                 sh 'ls -l /tmp'
 
+                sh 'sh ./run.sh'
+
             }
 
         }
