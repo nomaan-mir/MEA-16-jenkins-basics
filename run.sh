@@ -1,7 +1,6 @@
-echo "i am running"
-echo "this is the end"
-echo "this is my webhook"
-echo "thank you Stevenage, youve been amazing"
-echo "this is a new test"
-echo "to see if jenkins works"
-echo "test 2 for jenkins"
+echo "i am a success" > 1.txt
+echo "yipee" > 2.txt
+echo "hello world" > 3.txt
+echo "its me, mario" > 4.txt
+
+zip archive.zip *.txt
