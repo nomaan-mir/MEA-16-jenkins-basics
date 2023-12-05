@@ -36,7 +36,7 @@ pipeline {
 
             steps {
 
-                
+                sh 'cat ./run.sh'
 
                 sh 'echo "Deploying..."'
 
@@ -44,7 +44,7 @@ pipeline {
 
                 sh 'ls -l /tmp'
 
-                sh 'sh ./run.sh'
+                
 
             }
 
